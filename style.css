@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("assets/images/bg.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    position: relative;
+}
+
+.main .box {
+    height: 644px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+nav img {
+    color: white;
+}
+
+nav .btn {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 3px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+nav .btn.btn-red-sm {
+    background-color: #e50914;
+    border: none;
+}
+
+.hero {
+    position: relative;
+    top: 100px;
+    text-align: center;
+    color: white;
+}
+
+.hero span {
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero .hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero input {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.hero .btn.btn-red {
+    background-color: #e50914;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 2px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.separation {
+    height: 10px;
+    background-color: #333;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    color: white;
+}
+
+.first span:first-child {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.first span:last-child {
+    font-size: 24px;
+    margin-top: 20px;
+    display: block;
+}
+
+.secImg img, .secImg video {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+}
+
+.second {
+    flex-direction: row-reverse;
+}
+
+.faq {
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.faq h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.faq .faqbox {
+    background-color: #333;
+    padding: 20px;
+    margin: 10px auto;
+    width: 80%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.faq .faqbox span {
+    font-size: 24px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+footer .questions {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+footer .footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer .footer-item {
+    margin: 10px;
+}
+
+footer .footer-item a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+
